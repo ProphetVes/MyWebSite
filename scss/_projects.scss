@@ -1,0 +1,76 @@
+.proBody {
+  margin: 0px;
+  background-color: midnightblue;
+
+  .proMain {
+    background-image: url("../pictures/network-2-1920.jpg");
+    height: 700px;
+    width: auto;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+    .overlay {
+      background-color: rgba(0,0,0,0.4);
+      height: 100%;
+      width: 100%;
+    }
+
+    .proMainTitle {
+      padding-top: 300px;
+      margin-top: 0px;
+      color: #fab819;
+      font-size: 70px;
+    }
+  }
+
+  .pro-second-section {
+    padding: 40px 0px 50px 0px;
+    background-image: url("/pictures/coding-1920.jpg");
+  }
+
+  .proContainer {
+    border: 1px solid #fab819;
+    border-radius: 80px;
+    margin-bottom: 50px;
+    background-image: url("/pictures/network-1-1920.jpg");
+    background-size: cover;
+    // margin-top: 40px;
+    margin-bottom: 0;
+
+    h3 {
+      text-align: center;
+      font-size: 50px;
+      color: #fab819;
+    }
+
+    .col-12, .col-6 {
+      background-color: rgba(0,0,0,0.5);
+      border-radius: 68px;
+
+      li {
+        background-color: transparent;
+      }
+
+      a {
+        color: $white;
+      }
+    }
+
+    .proList {
+      border-bottom: 1px solid black;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #fab819;
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

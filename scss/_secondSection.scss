@@ -1,0 +1,251 @@
+.section-second {
+  // margin-top: 20px;
+  // background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../pictures/network-1920.jpg);
+  // background-position-y: -34px;
+  background-size: cover;
+  // background-attachment: fixed;
+  height: 968px;
+  p {
+    height: 46px;
+    color: $white;
+  }
+
+  h3, h4 {
+    color: $white;
+  }
+
+  .fmMainTittle {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 80px;
+  }
+
+  .fmPortret {
+    text-align: center;
+  }
+
+  .fmAlign {
+    text-align: center;
+
+    a:link, a:visited, a:active, a:hover {
+      color: #fab819;
+    }
+  }
+
+  // h4 {
+  //   color: $white;
+  // }
+
+  .overlay {
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+  }
+
+  .primary-title {
+    font-size: 30px;
+  }
+
+  .primary-paragraph {
+    font-size: 18px;
+  }
+
+  .bor {
+    height: 150px;
+    border-bottom: 1px solid $black;
+
+    .button-learn-more {
+      background-color: $brand-primary;
+      color: $white;
+      border: 1px solid $brand-primary;
+      margin-top: 12px;
+      height: 24px;
+      cursor: pointer;
+      font-style: italic;
+    }
+
+    .button-learn-more:hover {
+      color: $brand-primary;
+      background-color: $white;
+      transition: 0.5s ease;
+    }
+  }
+
+  .mobileScreen {
+    @media screen and (max-width: 769px) {
+      width: 100%;
+    }
+  }
+}
+
+.firstRightSide {
+  height: 154px;
+  margin: 15px 0;
+  border-bottom: 1px solid $black;
+
+  .firstRightBack {
+    background-color: #fab819;
+    padding: 0 15px;
+  }
+
+  .firstSize {
+    height: 169px;
+  }
+
+  p {
+    padding: 34px 0;
+    font-size: large;
+
+    @media screen and (max-width: 992px) {
+      padding: 0px;
+    }
+  }
+
+  .firstRightImg {
+    // width: 100px;
+    height: 100px;
+    margin-top: 19px;
+    border-left: 1px solid $white;
+    background-image: url("../pictures/Home-icon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    a {
+      content: "";
+      padding: 20px 122px 104px 0;   
+    }
+  }
+}
+
+.secondRightSide {
+  height: 153px;
+  margin: 15px 0;
+  border-bottom: 1px solid black;
+
+  .secondRightBack {
+    background-color: #fab819;
+    padding: 0 15px;
+  }
+
+  .secondSize {
+    height: 169px;
+  }
+
+  p {
+    padding: 34px 0;
+    font-size: large;
+
+    @media screen and (max-width: 992px) {
+      padding: 0px;
+    }
+  }
+
+  .secondRightImg {
+    // width: 100px;
+    height: 100px;
+    margin-top: 19px;
+    border-left: 1px solid $white;
+    background-image: url("../pictures/Home-icon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+
+    a {
+      content: "";
+      padding: 20px 122px 104px 0px;
+    }
+  }
+}
+
+.mobS {
+  @media screen and (max-width: 992px) {
+    width: 15%;
+  }
+}
+
+.mobW {
+  @media screen and (max-width: 992px) {
+    width: 35%;
+  }
+}
+
+.firstHidden {
+  text-align: center;
+  background-color: #fab819;
+  color: $white;
+  margin-left: 46px;
+  display: none;
+}
+
+.secondHidden {
+  text-align: center;
+  background-color: #fab819;
+  color: $white;
+  margin-left: 46px;
+}
+
+.firstTrigger {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.secondTrigger {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.second-intro {
+  // background-image: url("/pictures/network-1920.jpg");
+  // height: 510px;
+  // width: auto;
+  // // margin-top: 100px;
+  // background-size: cover;
+  // // background-attachment: fixed;
+  // // background-position: center;
+  // background-position-y: -534px;
+
+  // .overlay {
+  //   background-color: rgba(0, 0, 0, 0.6);
+  //   height: 100%;
+  //   width: 100%;
+  // }
+
+  h3 {
+    text-align: center;
+    font-size: 30px;
+    // color: $white;
+    padding-top: 120px;
+    margin: 0 0 162px 0;
+  }
+
+  .second-button-intro {
+    text-align: center;
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: $white;
+      padding: 15px 108px 19px;
+      border: 2px solid $white;
+      font-size: 26px;
+      height: 64px;
+      font-weight: bold;
+      border-radius: 5px;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+
+    a:hover {
+      background-color: rgba(255, 255, 255, 0.7);
+      border-color: rbga(0, 20, 70, 1);
+      color: rgba(62, 61, 93, 1);
+      transition: 0.5s ease;
+    }
+  }
+}

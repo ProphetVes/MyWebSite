@@ -1,0 +1,45 @@
+.listPosition {
+  margin-top: 150px;
+}
+
+.imgBorder {
+  margin-top: 200px;
+  // height: 300px;
+  // width: 870px;
+  // border: 1px solid black;
+}
+
+.listCAC {
+  padding-left: 0px;
+  padding-top: 10px;
+}
+
+.menu-html {
+  display: none;
+}
+
+.menu-css {
+  display: none;
+}
+
+.menu-js {
+  display: none;
+}
+
+.cac-body {
+  background-color: #192b37;
+}
+
+.courseList {
+  button {
+    cursor: pointer;
+  }
+}
+
+.img-cac {
+  width: 46%;
+  position: fixed;
+  top: 58%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+}

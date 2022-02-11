@@ -1,0 +1,56 @@
+.calcBody {
+  background-color: #192b37;
+}
+
+.cont {
+  padding: 0;
+  width: 500px;
+}
+
+.calcBackground {
+  background-color: lightgrey;
+  width: 500px;
+  height: 500px;
+  border: 2px solid $black;
+  border-radius: 10px;
+}
+
+.title-name {
+  text-align: center;
+  text-transform: uppercase;
+  color: navy;
+  margin: 0;
+}
+
+.result-area {
+  width: 100%;
+  height: 40px;
+  background-color: $white;
+  border: 1px solid $black;
+  border-radius: 10px;
+  
+  .resultNumber {
+    text-align: right;
+    text-transform: uppercase;
+    // height: 40px;
+    font-size: 40px;
+    margin: 1px 10px 0 10px;
+  }
+}
+
+.but {
+  text-align: center;
+
+  button {
+    height: 60px;
+    width: 70px;
+    font-size: 50px;
+    background-color: $calc-button-background;
+    color: $violet;
+
+    &:hover {
+      background-color: $calc-button-background;
+      color: $white;
+    }
+  }
+}

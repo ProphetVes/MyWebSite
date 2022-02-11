@@ -1,0 +1,155 @@
+// Intro section Background Image
+.introBackground {
+  // height: 500px;
+  width: auto;
+  border: 1px solid;
+  margin: -10px;
+  border-color: white;
+  background-image: url(../pictures/f3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+// Intro section Message
+.introMessage {
+  font-size: 90px;
+  text-align: center;
+  margin-top: 50px;
+  // text-transform: uppercase;
+  color: white;
+}
+
+.button-intro-warp {
+  margin-top: 50px;
+  height: 100px;
+  width: 370px;
+  text-align: center;
+  margin-right: -120px;
+}
+
+.button-text {
+  padding: 6px;
+  width: 200px;
+  text-transform: uppercase;
+  font-size: 30px;
+  border: 2px solid;
+  border-radius: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  border-color: white;
+  color: red;
+  opacity: 65%;
+  animation: mymove 5s infinite;
+  position: relative;
+
+  @keyframes mymove {
+    // 0% {right: 0px;}
+    // 25% {right: 200px;}
+    // 75% {right: 50px;}
+    // 100% {right: 100px;}
+    0% {
+      top: 0px;
+      right: 0px;
+    }
+    25% {
+      top: 0px;
+      right: 125%;
+    }
+    50% {
+      top: 0px;
+      right: 0px;
+    }
+  }
+
+  &:hover {
+    background-color: yellow;
+    width: 210px;
+  }
+
+  &:active {
+    background-color: blueviolet;
+  }
+}
+
+.sectionCol {
+  // background-color: red($color: #000000);
+  background-image: url(../pictures/col-Pic.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+.inside-image {
+  background-image: url(../pictures/diamond.jpg);
+  height: 230px;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.secondSection {
+  margin-top: 20px;
+}
+
+// .first-pic {
+//   background-image: url("../pictures/pic1.jpg");
+//   background-size: cover;
+//   width: 1910px;
+//   height: 900px;
+//   background-position: center;
+//   margin: 0px -15px;
+// }
+
+// .second-pic {
+//   background-image: url("../pictures/pic2.jpg");
+//   background-size: cover;
+//   width: 1910px;
+//   height: 900px;
+//   background-position: center;
+//   margin: 0px -15px;
+//   opacity: 0;
+// }
+
+// .last-pic {
+//   background-image: url("../pictures/pic3.jpg");
+//   background-size: cover;
+//   width: 1910px;
+//   height: 900px;
+//   background-position: center;
+//   margin: 0px -15px;
+//   opacity: 0;
+
+//   .col-4 {
+//     height: 900px;
+//   }
+// }
+
+// .col-4 {
+//   height: 900px;
+// }
+
+.first-pic {
+  background-image: url("../pictures/pic1.jpg");
+  background-size: cover;
+  width: 1910px;
+  height: 900px;
+  background-position: center;
+  margin: 0px -15px;
+}
+
+.imgTwo:hover {
+  background-image: url("../pictures/pic2.jpg");
+  background-size: cover;
+  width: 1910px;
+  height: 900px;
+  background-position: center;
+  margin: 0px -15px;
+  opacity: 1;
+  z-index: 10;
+
+  .first-pic {
+    display: none;
+  }
+
+  .imgOne {
+    display: none;
+  }
+}
